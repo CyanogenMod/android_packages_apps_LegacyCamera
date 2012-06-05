@@ -45,5 +45,5 @@ LOCAL_SHARED_LIBRARIES := liblog libnativehelper libGLESv2
 
 LOCAL_MODULE_TAGS := optional
 
-LOCAL_MODULE    := libjni_mosaic
+LOCAL_MODULE    := libjni_legacymosaic
 include $(BUILD_SHARED_LIBRARY)
