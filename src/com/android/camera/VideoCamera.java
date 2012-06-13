@@ -1481,8 +1481,7 @@ public class VideoCamera extends ActivityBase
                     .setOnMenuItemClickListener(new OnMenuItemClickListener() {
                 public boolean onMenuItemClick(MenuItem item) {
                     CameraSettings.writePreferredCameraId(mPreferences,
-                            ((mCameraId == mFrontCameraId)
-                            ? mBackCameraId : mFrontCameraId));
+                            (mCameraId + 1) % mNumberOfCameras);
                     onSharedPreferenceChanged();
                     return true;
                 }
