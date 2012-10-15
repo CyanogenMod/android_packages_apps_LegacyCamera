@@ -472,7 +472,7 @@ public class PanoramaActivity extends ActivityBase implements
                 // means users exit and come back to panorama. Do not start the
                 // preview. Preview will be started after final mosaic is
                 // generated.
-                if (!mPausing && !mThreadRunning) {
+                if (!mPausing) {
                     startCameraPreview();
                 }
             }
@@ -940,7 +940,11 @@ public class PanoramaActivity extends ActivityBase implements
 
     private void resetToPreview() {
         reset();
-        if (!mPausing) startCameraPreview();
+        if (!mPausing) {
+            mMosaicView.onPause();
+            mMosaicView.onResume();
+            startCameraPreview();
+        }
     }
 
     private void showFinalMosaic(Bitmap bitmap) {
