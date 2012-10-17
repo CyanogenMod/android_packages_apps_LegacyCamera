@@ -23,7 +23,7 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
-class PanoProgressBar extends ImageView {
+public class PanoProgressBar extends ImageView {
     private static final String TAG = "PanoProgressBar";
     public static final int DIRECTION_NONE = 0;
     public static final int DIRECTION_LEFT = 1;

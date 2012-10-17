@@ -44,7 +44,7 @@ public class MenuHelper {
 
     private static final int NO_ANIMATION = 0;
     private static final String CAMERA_CLASS = "com.android.camera.Camera";
-    private static final String PANORAMA_CLASS = "com.android.camera.panorama.PanoramaActivity";
+    private static final String PANORAMA_CLASS = "com.android.camera.PanoramaActivity";
     private static final String VIDEO_CAMERA_CLASS = "com.android.camera.VideoCamera";
 
     public static void addSwitchModeMenuItem(Menu menu, int mode,

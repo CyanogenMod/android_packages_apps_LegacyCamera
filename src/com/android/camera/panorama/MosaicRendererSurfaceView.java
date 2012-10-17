@@ -16,6 +16,8 @@
 
 package com.android.camera.panorama;
 
+import com.android.camera.PanoramaActivity;
+
 import android.app.Activity;
 import android.content.Context;
 import android.content.pm.ActivityInfo;
