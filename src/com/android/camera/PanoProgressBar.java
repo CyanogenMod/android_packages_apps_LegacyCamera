@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.camera.panorama;
+package com.android.camera;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -23,7 +23,7 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
-public class PanoProgressBar extends ImageView {
+class PanoProgressBar extends ImageView {
     private static final String TAG = "PanoProgressBar";
     public static final int DIRECTION_NONE = 0;
     public static final int DIRECTION_LEFT = 1;

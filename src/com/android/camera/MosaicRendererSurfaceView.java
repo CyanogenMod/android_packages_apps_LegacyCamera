@@ -14,9 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.camera.panorama;
-
-import com.android.camera.PanoramaActivity;
+package com.android.camera;
 
 import android.app.Activity;
 import android.content.Context;

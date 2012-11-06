@@ -35,13 +35,6 @@ import com.android.camera.ui.Rotatable;
 import com.android.camera.ui.RotateImageView;
 import com.android.camera.ui.RotateLayout;
 import com.android.camera.ui.SharePopup;
-import com.android.camera.panorama.Mosaic;
-import com.android.camera.panorama.MosaicFrameProcessor;
-import com.android.camera.panorama.MosaicRenderer;
-import com.android.camera.panorama.MosaicRendererSurfaceView;
-import com.android.camera.panorama.MosaicRendererSurfaceViewRenderer;
-import com.android.camera.panorama.PanoProgressBar;
-import com.android.camera.panorama.PanoUtil;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -1175,3 +1168,4 @@ public class PanoramaActivity extends ActivityBase implements
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
     }
 }
+
