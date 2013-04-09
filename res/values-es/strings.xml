@@ -129,4 +129,29 @@
     <string name="accessibility_decrement" msgid="1411194318538035666">"Reducir %1$s"</string>
     <string name="accessibility_increment" msgid="8447850530444401135">"Aumentar %1$s"</string>
     <string name="accessibility_switch" msgid="6995966685498958895">"Interruptor %1$s"</string>
+
+    <!-- CYANOGENMOD ADDITIONS START -->
+
+    <string name="pref_camera_picturesize_entry_4128x3096">13 Mpx</string>
+    <string name="pref_camera_picturesize_entry_4000x3000">12 Mpx</string>
+    <string name="pref_camera_picturesize_entry_4128x2322">10 Mpx</string>
+    <string name="pref_camera_picturesize_entry_4000x2250">9 Mpx</string>
+    <string name="pref_camera_picturesize_entry_3264x2448">8 Mpx</string>
+    <string name="pref_camera_picturesize_entry_3264x1968">6,5 Mpx (pano)</string>
+    <string name="pref_camera_picturesize_entry_3264x1952">6 Mpx (pano)</string>
+    <string name="pref_camera_picturesize_entry_2592x1552">4 Mpx (pano)</string>
+    <string name="pref_camera_picturesize_entry_2560x1712">4 Mpx</string>
+    <string name="pref_camera_picturesize_entry_2304x1728">4 Mpx</string>
+    <string name="pref_camera_picturesize_entry_2048x1216">2,5 Mpx (pano)</string>
+    <string name="pref_camera_picturesize_entry_1920x1080">HD1080</string>
+    <string name="pref_camera_picturesize_entry_1600x960">1,5 Mpx (pano)</string>
+    <string name="pref_camera_picturesize_entry_1280x1024">SXGA</string>
+    <string name="pref_camera_picturesize_entry_1280x768">WXGA</string>
+    <string name="pref_camera_picturesize_entry_1280x720">HD720</string>
+    <string name="pref_camera_picturesize_entry_800x600">SVGA</string>
+    <string name="pref_camera_picturesize_entry_800x480">WVGA</string>
+    <string name="pref_camera_picturesize_entry_352x288">CIF</string>
+    <string name="pref_camera_picturesize_entry_176x144">QCIF</string>
+
+    <!-- CYANOGENMOD ADDITIONS END -->
 </resources>
