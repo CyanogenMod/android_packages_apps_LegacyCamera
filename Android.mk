@@ -10,8 +10,6 @@ LOCAL_PACKAGE_NAME := LegacyCamera
 
 LOCAL_JNI_SHARED_LIBRARIES := libjni_legacymosaic
 
-LOCAL_REQUIRED_MODULES := libjni_legacymosaic
-
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 include $(BUILD_PACKAGE)
